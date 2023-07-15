@@ -148,6 +148,55 @@ h4{
     color: aquamarine;
 }
 
+.fun{
+    background-color: black;
+    width: 100%;
+    padding: 10vh 0;
+}
+
+.facts img{
+    height: auto;
+    width: 25%;
+    padding: 0 5vh;
+}
+
+.fun-text{
+    width: 75%;
+    color: white;
+}
+
+.facts{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fun-text h2{
+    color: white;
+    font-size: 7vh;
+    margin-bottom: 1vh;
+}
+
+.fun-text h5{
+    color: aquamarine;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.fun-text p{
+    color: beige;
+    line-height: 3vh;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    padding-right: 10%;
+}
+
+.fun-text p span{
+    color: aquamarine;
+}
+
 .experience{
     background-color: black;
     width: 100%;
@@ -345,10 +394,10 @@ footer .end p{
     padding: 1vh; 
     border-radius: 25px; 
     font-size: 2vh;
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: black;
     color: aquamarine;
     transition: 0.5s; 
-  }
+}
